@@ -1,11 +1,12 @@
 ## 嗨，我是Uword 👋
-为2
+我在网上找的教程不知道为什么和我的页面相差很大，所以我就干脆使用穷举法了。
+连这个页面都是我一个一个点试出来的，所以制作的会有点简陋。（）                                                           
 <!--
 **Uword/Uword** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:搜索
+Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...全球
+
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
