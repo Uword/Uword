@@ -1,5 +1,6 @@
 ## 嗨，我是Uword 👋
-为2
+不知道为什么我在网上找的教程，和我的页面相差很大。
+这个主页的创建我使用了古老的穷举法，所以可能会有一些简陋。（）
 <!--
 **Uword/Uword** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
