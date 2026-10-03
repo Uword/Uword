@@ -26,15 +26,6 @@ QQ：1839790936
 
 
 # 二、 二选一：编程与算法方向（或视觉设计方向）
-
-
-
-### ① 编程与算法方向
-
-**原数组：** 8 3 6 2 7 1
-
-**代码实现（C++）：**
-```cpp
 #include <iostream>
 using namespace std;
 
@@ -42,8 +33,14 @@ int main() {
     int arr[] = {8, 3, 6, 2, 7, 1};
     int n = sizeof(arr) / sizeof(arr[0]);
     
+    cout << "原始数组: ";
+    for (int i = 0; i < n; i++) cout << arr[i] << " ";
+    cout << "\n\n";
+
     // 冒泡排序
     for (int i = 0; i < n - 1; i++) {
+        cout << "--- 第 " << i + 1 << " 轮冒泡开始 ---" << endl;
+        
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 // 交换元素
@@ -51,11 +48,17 @@ int main() {
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
             }
+            // 关键：每比较一次，就打印一下当前数组的样子
+            cout << "  第 " << j + 1 << " 次比较后: ";
+            for (int k = 0; k < n; k++) {
+                cout << arr[k] << " ";
+            }
+            cout << endl;
         }
+        cout << ">>> 本轮结束，" << arr[n - i - 1] << " 已经归位！\n\n";
     }
     
-    // 输出排序后的结果
-    cout << "排序后结果: ";
+    cout << "最终排序结果: ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
@@ -63,6 +66,7 @@ int main() {
     
     return 0;
 }
+
 
 
 
