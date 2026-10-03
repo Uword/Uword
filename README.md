@@ -25,47 +25,10 @@
 QQ：1839790936
 
 
-# 二、 二选一：编程与算法方向（或视觉设计方向）
-#include <iostream>
-using namespace std;
+# 或视觉设计方向
+有点潦草的制作出来了
+<img width="1156" height="1079" alt="c8d91caa23035a4ad19b892e5371a628" src="https://github.com/user-attachments/assets/22007f23-45cb-4ebb-821b-85fc631a1990" />
 
-int main() {
-    int arr[] = {8, 3, 6, 2, 7, 1};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    
-    cout << "原始数组: ";
-    for (int i = 0; i < n; i++) cout << arr[i] << " ";
-    cout << "\n\n";
-
-    // 冒泡排序
-    for (int i = 0; i < n - 1; i++) {
-        cout << "--- 第 " << i + 1 << " 轮冒泡开始 ---" << endl;
-        
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                // 交换元素
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-            // 关键：每比较一次，就打印一下当前数组的样子
-            cout << "  第 " << j + 1 << " 次比较后: ";
-            for (int k = 0; k < n; k++) {
-                cout << arr[k] << " ";
-            }
-            cout << endl;
-        }
-        cout << ">>> 本轮结束，" << arr[n - i - 1] << " 已经归位！\n\n";
-    }
-    
-    cout << "最终排序结果: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-    
-    return 0;
-}
 
 
 
